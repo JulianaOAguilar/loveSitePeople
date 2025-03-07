@@ -17,6 +17,10 @@
     }
   }
 
+  .text {
+    font-size: 20px;
+    text-align: center;
+  }
   
   .mini-heart {
     margin-top: 20px;
@@ -92,6 +96,6 @@
   
   .text-cute {
     font-size: 20px;
-    background-color: rgb(212, 255, 244);
+    background-color: rgb(253, 255, 238);
     border-style:dashed
   }
