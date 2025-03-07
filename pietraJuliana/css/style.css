@@ -1,0 +1,102 @@
+
+.div-body {
+    background: rgb(121,255,255);
+    background: linear-gradient(356deg, rgba(121,255,255,1) 40%, rgba(57,255,150,1) 87%);
+  }
+  
+  .div-h1 {
+    color: rgb(71, 12, 42) !important;
+    font-family: "Moon Dance", cursive;
+    font-weight: 300;
+    font-size: 70px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .div-h1 {
+        font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .div-h1 {
+        font-size: 30px;
+    }
+  }
+  
+  .mini-heart {
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mini-heart {
+        margin-top: 10px;
+        height: 30px;
+        width: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 468px) {
+    .mini-heart {
+        height: 20px;
+        width: 20px;
+    }
+  }
+  
+  .custom-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .card-text {
+    font-family: cursive;
+    font-size: 18px;
+  }
+  
+  .p {
+    color: rgb(12, 0, 6);
+    font-size: 3;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .carousel-inner {
+    overflow: hidden;
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    z-index: 1;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .card-body {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .text-cute {
+    font-size: 20px;
+    background-color: rgb(212, 255, 244);
+    border-style:dashed
+  }
